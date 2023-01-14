@@ -10,8 +10,8 @@ function Main(input) {
   console.log(count);
 }
 
-let input = `000`;
-Main(input);
+// let input = `000`;
+// Main(input);
 
 // *この行以降は編集しないでください（標準入出力から一度に読み込み、Mainを呼び出します）
-// Main(require('fs').readFileSync('/dev/stdin', 'utf8'));
+Main(require('fs').readFileSync('/dev/stdin', 'utf8'));
