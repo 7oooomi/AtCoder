@@ -6,11 +6,11 @@ function Main(input) {
   }
 }
 
-let input = `3
-Takahashi
-Aoki
-Snuke
-`;
-Main(input);
+// let input = `3
+// Takahashi
+// Aoki
+// Snuke
+// `;
+// Main(input);
 
 Main(require('fs').readFileSync('/dev/stdin', 'utf8'));
