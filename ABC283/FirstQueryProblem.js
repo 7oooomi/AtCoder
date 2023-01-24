@@ -14,19 +14,19 @@ function Main(input) {
   }
 }
 
-let input = `5
-22 2 16 7 30
-10
-1 4 0
-1 5 0
-2 2
-2 3
-2 4
-2 5
-1 4 100
-1 5 100
-2 3
-2 4`;
-Main(input);
+// let input = `5
+// 22 2 16 7 30
+// 10
+// 1 4 0
+// 1 5 0
+// 2 2
+// 2 3
+// 2 4
+// 2 5
+// 1 4 100
+// 1 5 100
+// 2 3
+// 2 4`;
+// Main(input);
 
-// Main(require('fs').readFileSync('/dev/stdin', 'utf8'));
+Main(require('fs').readFileSync('/dev/stdin', 'utf8'));
