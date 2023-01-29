@@ -18,6 +18,6 @@ function main(input) {
     console.log('No');
   }
 }
-let input = `K012345K`;
-main(input);
-// main(require('fs').readFileSync('/dev/stdin', 'utf8'));
+// let input = `K012345K`;
+// main(input);
+main(require('fs').readFileSync('/dev/stdin', 'utf8'));

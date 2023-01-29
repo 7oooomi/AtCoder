@@ -3,7 +3,7 @@ function main(input) {
     console.log(i);
   }
 }
-let input = `3`;
-main(input);
+// let input = `3`;
+// main(input);
 
 main(require('fs').readFileSync('/dev/stdin', 'utf8'));
